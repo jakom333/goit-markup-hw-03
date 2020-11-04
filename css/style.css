@@ -1,0 +1,103 @@
+/* стили для index.html */
+
+/* tagline */
+.tagline {
+    background-color: #2F303A;
+}
+
+.tagline .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+/* features */
+
+.features .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text-color);
+}
+
+.features .text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+/* activity */
+
+.activity .title,
+.team .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+/* team */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team .employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.team .profession {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+/* button */
+
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+    text-decoration: none;
+}
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/* Стили для portfolio.html */
+
+.portfolio .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.portfolio .text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color);
+}
