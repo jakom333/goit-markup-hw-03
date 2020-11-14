@@ -6,6 +6,8 @@
 }
 
 .tagline .title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -65,25 +67,33 @@
 /* button */
 
 .button {
-    font-family: inherit;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    border: none;
+    text-align: center;
     color: var(--primary-text-color);
     background-color: var(--button-bg-color);
-    text-decoration: none;
+    border-radius: 4px;
 }
 
 .button.primary {
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
     color: var(--white-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Стили для portfolio.html */
