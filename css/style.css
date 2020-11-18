@@ -5,7 +5,6 @@
   padding-top: 200px;
   padding-bottom: 200px;
 
-  height: 600px;
   background-color: #2f303a;
 }
 
@@ -58,7 +57,6 @@
 
 .features .properties {
   width: 270px;
-  height: 101px;
 }
 
 .features .title {
@@ -127,7 +125,7 @@
 .cards {
   background-color: var(--white-color);
   width: 270px;
-  height: 368px;
+  min-height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -200,7 +198,7 @@
   margin-bottom: 30px;
 
   width: 370px;
-  height: 404px;
+  min-height: 404px;
   border: 1px solid #eeeeee;
 }
 

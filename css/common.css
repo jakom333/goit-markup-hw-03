@@ -26,10 +26,8 @@ body {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
+  padding: 0 15px;
   width: 1200px;
 }
 
@@ -62,6 +60,7 @@ body {
 .container.align {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .main-nav {
@@ -99,7 +98,6 @@ body {
 
 .site-contacts {
   display: flex;
-  margin-left: auto;
 }
 
 .site-contacts .item:not(:last-child) {
